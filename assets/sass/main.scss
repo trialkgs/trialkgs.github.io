@@ -1004,17 +1004,17 @@
 		}
 
 		.logo {
-			background: _palette(accent1, bg);
+			background: #ffffff;
 			border-radius: 100%;
-			color: _palette(accent1, fg-bold);
 			cursor: default;
 			display: inline-block;
 			font-size: 2.25em;
-			height: 2.35em;
-			line-height: 2.35em;
+			height: 2.5em;
+			line-height: 2.5em;
 			margin: 0 0 0.75em 0;
 			text-align: center;
-			width: 2.35em;
+			width: 2.5em;
+			padding: 4px;
 
 			&.fa-paper-plane-o:before {
 				left: -0.075em;
@@ -1445,10 +1445,6 @@
 
 				&:after {
 					height: 20px;
-				}
-
-				.logo {
-					font-size: 1.5em;
 				}
 
 				h1 {

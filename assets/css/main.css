@@ -2202,17 +2202,17 @@ input[type=button].small,
   color: #544d55;
 }
 #header .logo {
-  background: #4eb980;
+  background: #ffffff;
   border-radius: 100%;
-  color: #ffffff;
   cursor: default;
   display: inline-block;
   font-size: 2.25em;
-  height: 2.35em;
-  line-height: 2.35em;
+  height: 2.5em;
+  line-height: 2.5em;
   margin: 0 0 0.75em 0;
   text-align: center;
-  width: 2.35em;
+  width: 2.5em;
+  padding: 4px;
 }
 #header .logo.fa-paper-plane-o:before {
   left: -0.075em;
@@ -2547,9 +2547,6 @@ input[type=button].small,
   }
   #header:after {
     height: 20px;
-  }
-  #header .logo {
-    font-size: 1.5em;
   }
   #header h1 {
     font-size: 1.25em;
