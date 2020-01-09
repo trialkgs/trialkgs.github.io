@@ -182,6 +182,16 @@ blockquote {
 .container.medium {
   width: 38.25em;
 }
+.container .main_text {
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: 0;
+  color: #455a64;
+  letter-spacing: 0.125em;
+  line-height: 1.75em;
+  border-top: 0;
+  text-transform: none;
+}
 @media screen and (max-width: 1280px) {
   .container {
     width: 48em;
