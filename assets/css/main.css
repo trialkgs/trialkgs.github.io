@@ -2125,6 +2125,27 @@ table.default thead {
 #header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
   color: #ffffff;
 }
+#header nav {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding: 0.8em 0;
+}
+#header nav ul {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+#header nav ul li {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0 2em;
+  line-height: 1;
+}
 #header .logo {
   background: #ffffff;
   border-radius: 100%;
