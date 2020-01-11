@@ -106,7 +106,6 @@ a {
   -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  border-bottom: dotted 1px;
   color: #52a0ce;
   text-decoration: none;
 }
@@ -1734,6 +1733,49 @@ ul.default li {
   padding-left: 0.5em;
 }
 
+.images_list {
+  margin-top: 2em;
+}
+.images_list .image_row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.5em;
+}
+.images_list .image_column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 0.5em;
+}
+.images_list .image_column .image_item {
+  width: 100%;
+  position: relative;
+  display: block;
+  margin-bottom: 1em;
+}
+.images_list .image_column .image_item:before {
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  -ms-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+  background-image: url("images/overlay.png");
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.images_list .image_column .image_item:hover:before {
+  opacity: 1;
+}
+.images_list .image_column .image_item img {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
 /* =========================== Actions =========================== */
 ul.actions {
   display: -moz-flex;
@@ -2004,7 +2046,7 @@ table.default thead {
 }
 .feature .content {
   display: inline-block;
-  padding: 3.5em;
+  padding: 0 3.5em;
   vertical-align: middle;
   width: 48%;
 }
@@ -2107,7 +2149,7 @@ table.default thead {
 }
 #header.short {
   background: url("images/overlay.png"), url("../../images/header.jpg") center center no-repeat;
-  padding: 1em 2em;
+  padding: 4em 2em;
 }
 #header.short:before, #header.short:after {
   display: none;
@@ -2205,6 +2247,9 @@ table.default thead {
 #main footer.major {
   background: #ffffff;
 }
+#main .container ul, #main .container p {
+  margin-bottom: 0;
+}
 
 /* Wide */
 @media screen and (max-width: 1680px) {
@@ -2278,7 +2323,7 @@ table.default thead {
     height: 18em;
   }
   .feature .content {
-    padding: 2.5em;
+    padding: 0 2.5em;
   }
 
   /* Header */
@@ -2335,6 +2380,11 @@ table.default thead {
   footer.major {
     padding-left: 2em;
     padding-right: 2em;
+  }
+
+  .images_list .image_column {
+    flex: 100%;
+    max-width: 100%;
   }
 }
 /* Mobile */
