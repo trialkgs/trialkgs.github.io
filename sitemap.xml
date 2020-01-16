@@ -4,41 +4,39 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
-  <loc>https://trialkgs.github.io/</loc>
+  <loc>https://trialkg.com/</loc>
   <lastmod>2020-01-12T06:35:03+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://trialkgs.github.io/index.html</loc>
+  <loc>https://trialkg.com/index.html</loc>
   <lastmod>2020-01-12T06:35:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://trialkgs.github.io/about_us.html</loc>
+  <loc>https://trialkg.com/about_us.html</loc>
   <lastmod>2020-01-12T06:35:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://trialkgs.github.io/pvd.html</loc>
+  <loc>https://trialkg.com/pvd.html</loc>
   <lastmod>2020-01-12T06:35:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://trialkgs.github.io/pnd.html</loc>
+  <loc>https://trialkg.com/pnd.html</loc>
   <lastmod>2020-01-12T06:35:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://trialkgs.github.io/pp.html</loc>
+  <loc>https://trialkg.com/pp.html</loc>
   <lastmod>2020-01-12T06:35:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://trialkgs.github.io/dye.html</loc>
+  <loc>https://trialkg.com/dye.html</loc>
   <lastmod>2020-01-12T06:35:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
