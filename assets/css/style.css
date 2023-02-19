@@ -122,7 +122,6 @@ ul.social li a:hover {
 
 .isotope,
 .isotope .isotope-item {
-  /* change duration value to whatever you like */
   -webkit-transition-duration: 0.8s;
   -moz-transition-duration: 0.8s;
   -ms-transition-duration: 0.8s;
@@ -448,7 +447,6 @@ section.services .service {
   width: 100%;
   display: block;
   text-align: center;
-  /* opacity: 0; */
 }
 section.services .service .top {
   width: 100%;
