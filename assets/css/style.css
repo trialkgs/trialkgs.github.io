@@ -65,6 +65,7 @@ p {
   text-transform: uppercase;
   display: inline-block;
   -webkit-transition: all ease-in;
+  transition-delay: 0.3s;
   -webkit-transition-delay: 0.3s;
   -moz-transition: all ease-in 0.3s;
   -o-transition: all ease-in 0.3s;
@@ -89,6 +90,7 @@ ul.social li a {
   text-transform: uppercase;
   font-size: 0.813em;
   -webkit-transition: all ease-in;
+  transition-delay: 0.3s;
   -webkit-transition-delay: 0.3s;
   -moz-transition: all ease-in 0.3s;
   -o-transition: all ease-in 0.3s;
@@ -162,6 +164,7 @@ ul.social li a:hover {
   position: fixed;
   z-index: 10000;
   -webkit-transition: all ease-in;
+  transition-delay: 0.4s;
   -webkit-transition-delay: 0.4s;
   -moz-transition: all ease-in 0.4s;
   -o-transition: all ease-in 0.4s;
@@ -199,6 +202,7 @@ header {
   z-index: 100;
   background: rgba(255, 255, 255, 0.9);
   -webkit-transition: all ease-in;
+  transition-delay: 0.2s;
   -webkit-transition-delay: 0.2s;
   -moz-transition: all ease-in 0.2s;
   -o-transition: all ease-in 0.2s;
@@ -206,6 +210,7 @@ header {
 }
 header * {
   -webkit-transition: all ease-in;
+  transition-delay: 0.2s;
   -webkit-transition-delay: 0.2s;
   -moz-transition: all ease-in 0.2s;
   -o-transition: all ease-in 0.2s;
@@ -286,6 +291,7 @@ section.about .imageholder .text {
   left: 0;
   top: 0;
   -webkit-transition: all ease-in;
+  transition-delay: 0.3s;
   -webkit-transition-delay: 0.3s;
   -moz-transition: all ease-in 0.3s;
   -o-transition: all ease-in 0.3s;
@@ -331,6 +337,7 @@ section.about .sliderHolder .bannerNav a {
   font-size: 1.375em;
   margin: 0 0 0 1px;
   -webkit-transition: all ease-in;
+  transition-delay: 0.3s;
   -webkit-transition-delay: 0.3s;
   -moz-transition: all ease-in 0.3s;
   -o-transition: all ease-in 0.3s;
@@ -516,6 +523,7 @@ section.team .slider .bannerNav a {
   font-size: 1.375em;
   margin: 0 0 0 1px;
   -webkit-transition: all ease-in;
+  transition-delay: 0.3s;
   -webkit-transition-delay: 0.3s;
   -moz-transition: all ease-in 0.3s;
   -o-transition: all ease-in 0.3s;
