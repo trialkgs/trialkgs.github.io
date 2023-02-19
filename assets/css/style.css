@@ -368,8 +368,9 @@ section.about article ul li {
   font-style: italic;
 }
 section.about .image_block {
-  width: 100%;
+  width: 600px;
   display: block;
+  margin: 0 auto;
   text-align: center;
 }
 section.about .centered_block {
@@ -498,7 +499,16 @@ section.team .slider .sliderholder .member h5 {
   font-weight: normal;
 }
 section.team .slider .sliderholder .member p {
-  padding: 0 0 30px 0;
+  margin: 0;
+  padding: 0;
+}
+section.team .slider .sliderholder .info_list {
+  margin: 0 5px 0 15px;
+  padding: 0;
+  font-size: 0.938em;
+  color: #898989;
+  font-style: italic;
+  line-height: 19px;
 }
 section.team .slider .sliderholder .member ul.social {
   text-align: right;
