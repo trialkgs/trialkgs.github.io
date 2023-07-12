@@ -405,6 +405,10 @@ section.mixed_section article p {
 section.mixed_section article ul li {
   color: black;
 }
+section#courier{
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
 section.slides {
   margin-bottom: 40px;
 }
@@ -649,6 +653,12 @@ footer .copyright {
   section.team .slider .smallTitle {
     text-align: center;
     margin: 20px 0 0 0;
+  }
+
+  section#courier{
+    margin-top: -40px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
 
   section.contacts {
